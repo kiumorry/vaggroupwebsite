@@ -1,0 +1,28 @@
+{
+  "name": "vag-group-website",
+  "version": "0.0.1",
+  "engines": {    
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "svelte": "^3.44.0",
+    "tailwindcss": "^3.0.22"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-node": "^1.0.0-next.68",
+    "swiper": "^8.0.6"
+  }
+}
